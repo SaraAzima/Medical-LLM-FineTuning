@@ -47,8 +47,8 @@ training:
   weight_decay: 0.01
   optim: adamw_8bit
   seed: 42
-  bf16: true
-  fp16: false
+  bf16: false
+  fp16: true
   report_to: "none"            # set to "wandb" if you have it configured
 
 generation:
