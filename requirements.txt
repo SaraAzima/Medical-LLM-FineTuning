@@ -1,0 +1,28 @@
+# Core training stack
+unsloth @ git+https://github.com/unslothai/unsloth.git
+torch>=2.2.0
+transformers>=4.44.0
+trl>=0.9.6
+peft>=0.11.1
+bitsandbytes>=0.43.1
+accelerate>=0.31.0
+datasets>=2.19.0
+sentencepiece
+protobuf
+
+# Data / utils
+pandas
+numpy
+pyyaml
+tqdm
+
+# Evaluation
+evaluate>=0.4.2
+rouge-score>=0.1.2
+sacrebleu>=2.4.0
+bert-score>=0.3.13
+scikit-learn>=1.4.0
+
+# Optional: for the NLI-based hallucination proxy metric
+# (falls back gracefully if not installed)
+sentencepiece
